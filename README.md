@@ -28,13 +28,17 @@ Executar as migration
 php artisan migrate
 ```
 
-Executar as seed
+Executar as seed Usuários
 ```
 php artisan db:seed --class=UserSeeder
+...
+
+Executar as seed Médicos
+```
 php artisan db:seed --class=MedicoSeeder
 ...
 
 Iniciar o projeto criado com Laravel
-```
-php artisan serve
 ...
+php artisan serve
+```
